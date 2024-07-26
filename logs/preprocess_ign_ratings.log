@@ -11,3 +11,6 @@
 2024-07-26 11:43:35,684:INFO:Loaded IGN ratings data with columns: ['timestamp', 'ign_rating', 'user_rating']
 2024-07-26 11:43:35,695:INFO:Saved preprocessed data to HDF5 group: ign_ratings/20240726114335
 2024-07-26 11:43:35,695:INFO:Preprocessing of IGN ratings data completed successfully.
+2024-07-26 16:38:40,304:INFO:Loaded IGN ratings data with columns: ['timestamp', 'ign_rating', 'user_rating']
+2024-07-26 16:38:40,317:INFO:Saved preprocessed data to HDF5 group: ign_ratings/20240726163840
+2024-07-26 16:38:40,317:INFO:Preprocessing of IGN ratings data completed successfully.

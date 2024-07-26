@@ -8,3 +8,5 @@
 2024-07-26 11:39:27,318:INFO:Saved preprocessed youtube search data with columns: ['total_searches']
 2024-07-26 11:43:41,539:INFO:Loaded youtube search data with columns: ['count']
 2024-07-26 11:43:41,547:INFO:Saved preprocessed youtube search data with columns: ['total_searches']
+2024-07-26 16:38:47,562:INFO:Loaded youtube search data with columns: ['count']
+2024-07-26 16:38:47,571:INFO:Saved preprocessed youtube search data with columns: ['total_searches']

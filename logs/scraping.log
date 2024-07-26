@@ -950,3 +950,20 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2024-07-26 11:42:30,827:INFO:Comparison to Previous Day: 0.17%
 2024-07-26 11:42:30,836:INFO:Saved data to HDF5 group: player_counts/20240726114230
 2024-07-26 11:43:33,783:INFO:Data and images saved to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\leaderboard_data.h5 in group leaderboards/20240726_114331
+2024-07-26 16:35:45,409:INFO:Stock data saved to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\data.h5 in group finance/20240726_163545
+2024-07-26 16:35:57,795:INFO:Loaded general Google Trends page
+2024-07-26 16:36:17,801:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-26 16:36:29,961:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-26 16:36:45,631:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-26 16:36:45,662:INFO:Saved data to HDF5 group: web_search/20240726163645
+2024-07-26 16:36:46,653:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-26 16:36:59,778:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-26 16:37:14,184:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-26 16:37:14,202:INFO:Saved data to HDF5 group: youtube_search/20240726163714
+2024-07-26 16:37:24,304:INFO:IGN Rating: 7
+2024-07-26 16:37:24,308:INFO:User Rating: 7.1
+2024-07-26 16:37:24,317:INFO:Saved data to HDF5 group: ign_ratings/20240726163724
+2024-07-26 16:37:27,655:INFO:Current Playes: 1,080,000
+2024-07-26 16:37:27,657:INFO:Comparison to Previous Day: 0.17%
+2024-07-26 16:37:27,666:INFO:Saved data to HDF5 group: player_counts/20240726163727
+2024-07-26 16:38:37,965:INFO:Data and images saved to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\leaderboard_data.h5 in group leaderboards/20240726_163836
