@@ -1,0 +1,17 @@
+2024-07-25 13:04:34,843:ERROR:Failed to preprocess web search data: Shape of passed values is (182, 1), indices imply (182, 2)
+2024-07-25 13:05:40,163:INFO:Loaded web search data with columns: ['count']
+2024-07-25 13:05:40,164:ERROR:Failed to preprocess web search data: invalid literal for int() with base 10: b'XDefiant: (Worldwide)'
+2024-07-25 13:07:01,521:INFO:Loaded web search data with columns: ['count']
+2024-07-25 13:07:01,523:INFO:Saved preprocessed web search data with columns: ['timestamp', 'total_searches']
+2024-07-25 13:08:29,425:INFO:Loaded web search data with columns: ['count']
+2024-07-25 13:08:29,427:ERROR:Failed to preprocess web search data: [Errno 0] Unable to synchronously open file (unable to lock file, errno = 0, error message = 'No error', Win32 GetLastError() = 33)
+2024-07-25 13:08:41,879:INFO:Loaded web search data with columns: ['count']
+2024-07-25 13:08:41,882:INFO:Saved preprocessed web search data with columns: ['total_searches']
+2024-07-25 13:13:25,900:INFO:Loaded web search data with columns: ['count']
+2024-07-25 13:13:25,912:INFO:Saved preprocessed web search data with columns: ['total_searches']
+2024-07-25 13:20:16,198:INFO:Loaded web search data with columns: ['count']
+2024-07-25 13:20:16,207:INFO:Saved preprocessed web search data with columns: ['total_searches']
+2024-07-26 11:39:26,236:INFO:Loaded web search data with columns: ['count']
+2024-07-26 11:39:26,238:ERROR:Failed to preprocess web search data: [Errno 0] Unable to synchronously open file (unable to lock file, errno = 0, error message = 'No error', Win32 GetLastError() = 33)
+2024-07-26 11:43:40,588:INFO:Loaded web search data with columns: ['count']
+2024-07-26 11:43:40,596:INFO:Saved preprocessed web search data with columns: ['total_searches']

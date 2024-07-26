@@ -1,0 +1,13 @@
+2024-07-25 12:25:20,182:INFO:Loaded IGN ratings data with columns: ['timestamp', 'ign_rating', 'user_rating']
+2024-07-25 12:25:20,188:INFO:Saved preprocessed data to HDF5 group: ign_ratings/20240725122520
+2024-07-25 12:25:20,188:INFO:Preprocessing of IGN ratings data completed successfully.
+2024-07-25 13:13:09,526:INFO:Loaded IGN ratings data with columns: ['timestamp', 'ign_rating', 'user_rating']
+2024-07-25 13:13:09,533:INFO:Saved preprocessed data to HDF5 group: ign_ratings/20240725131309
+2024-07-25 13:13:09,533:INFO:Preprocessing of IGN ratings data completed successfully.
+2024-07-25 13:20:10,955:INFO:Loaded IGN ratings data with columns: ['timestamp', 'ign_rating', 'user_rating']
+2024-07-25 13:20:10,967:INFO:Saved preprocessed data to HDF5 group: ign_ratings/20240725132010
+2024-07-25 13:20:10,967:INFO:Preprocessing of IGN ratings data completed successfully.
+2024-07-26 11:39:20,957:INFO:Loaded IGN ratings data with columns: ['timestamp', 'ign_rating', 'user_rating']
+2024-07-26 11:43:35,684:INFO:Loaded IGN ratings data with columns: ['timestamp', 'ign_rating', 'user_rating']
+2024-07-26 11:43:35,695:INFO:Saved preprocessed data to HDF5 group: ign_ratings/20240726114335
+2024-07-26 11:43:35,695:INFO:Preprocessing of IGN ratings data completed successfully.

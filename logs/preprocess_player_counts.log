@@ -1,0 +1,13 @@
+2024-07-25 12:42:08,402:INFO:Loaded player counts data with columns: ['timestamp', 'player_count', 'percentage_change']
+2024-07-25 12:42:08,409:INFO:Saved preprocessed data to HDF5 group: player_counts/20240725124208
+2024-07-25 12:42:08,409:INFO:Preprocessing of player counts data completed successfully.
+2024-07-25 13:13:16,243:INFO:Loaded player counts data with columns: ['timestamp', 'player_count', 'percentage_change']
+2024-07-25 13:13:16,262:INFO:Saved preprocessed data to HDF5 group: player_counts/20240725131316
+2024-07-25 13:13:16,262:INFO:Preprocessing of player counts data completed successfully.
+2024-07-25 13:20:12,997:INFO:Loaded player counts data with columns: ['timestamp', 'player_count', 'percentage_change']
+2024-07-25 13:20:13,010:INFO:Saved preprocessed data to HDF5 group: player_counts/20240725132013
+2024-07-25 13:20:13,010:INFO:Preprocessing of player counts data completed successfully.
+2024-07-26 11:39:23,087:INFO:Loaded player counts data with columns: ['timestamp', 'player_count', 'percentage_change']
+2024-07-26 11:43:37,695:INFO:Loaded player counts data with columns: ['timestamp', 'player_count', 'percentage_change']
+2024-07-26 11:43:37,707:INFO:Saved preprocessed data to HDF5 group: player_counts/20240726114337
+2024-07-26 11:43:37,707:INFO:Preprocessing of player counts data completed successfully.

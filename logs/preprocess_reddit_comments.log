@@ -1,0 +1,13 @@
+2024-07-25 12:48:20,674:INFO:Loaded reddit comments data with columns: ['body', 'score', 'id', 'created', 'author', 'textblob_polarity', 'textblob_subjectivity', 'vader_neg', 'vader_neu', 'vader_pos', 'vader_compound', 'afinn_score']
+2024-07-25 12:48:20,688:INFO:Saved preprocessed data to HDF5 group: reddit_XDefiant_comments/20240725124820
+2024-07-25 12:48:20,688:INFO:Preprocessing of reddit comments data completed successfully.
+2024-07-25 12:58:43,539:INFO:Loaded reddit comments data with columns: ['body', 'score', 'id', 'created', 'author', 'textblob_polarity', 'textblob_subjectivity', 'vader_neg', 'vader_neu', 'vader_pos', 'vader_compound', 'afinn_score']
+2024-07-25 12:58:43,553:INFO:Saved preprocessed reddit comments data with columns: ['body', 'textblob_polarity', 'textblob_subjectivity', 'vader_neg', 'vader_neu', 'vader_pos', 'vader_compound', 'afinn_score']
+2024-07-25 13:13:18,888:INFO:Loaded reddit comments data with columns: ['body', 'score', 'id', 'created', 'author', 'textblob_polarity', 'textblob_subjectivity', 'vader_neg', 'vader_neu', 'vader_pos', 'vader_compound', 'afinn_score']
+2024-07-25 13:13:18,911:INFO:Saved preprocessed reddit comments data with columns: ['body', 'textblob_polarity', 'textblob_subjectivity', 'vader_neg', 'vader_neu', 'vader_pos', 'vader_compound', 'afinn_score']
+2024-07-25 13:20:14,063:INFO:Loaded reddit comments data with columns: ['body', 'score', 'id', 'created', 'author', 'textblob_polarity', 'textblob_subjectivity', 'vader_neg', 'vader_neu', 'vader_pos', 'vader_compound', 'afinn_score']
+2024-07-25 13:20:14,083:INFO:Saved preprocessed reddit comments data with columns: ['body', 'textblob_polarity', 'textblob_subjectivity', 'vader_neg', 'vader_neu', 'vader_pos', 'vader_compound', 'afinn_score']
+2024-07-26 11:39:24,096:INFO:Loaded reddit comments data with columns: ['body', 'score', 'id', 'created', 'author', 'textblob_polarity', 'textblob_subjectivity', 'vader_neg', 'vader_neu', 'vader_pos', 'vader_compound', 'afinn_score']
+2024-07-26 11:39:24,099:ERROR:Failed to preprocess reddit comments data: [Errno 0] Unable to synchronously open file (unable to lock file, errno = 0, error message = 'No error', Win32 GetLastError() = 33)
+2024-07-26 11:43:38,658:INFO:Loaded reddit comments data with columns: ['body', 'score', 'id', 'created', 'author', 'textblob_polarity', 'textblob_subjectivity', 'vader_neg', 'vader_neu', 'vader_pos', 'vader_compound', 'afinn_score']
+2024-07-26 11:43:38,677:INFO:Saved preprocessed reddit comments data with columns: ['body', 'textblob_polarity', 'textblob_subjectivity', 'vader_neg', 'vader_neu', 'vader_pos', 'vader_compound', 'afinn_score']

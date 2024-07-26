@@ -1,0 +1,7 @@
+URL,Description,DataType,Notes
+https://tracker.gg/xdefiant/leaderboards/stats/all/Kills?page=1,Leaderboard of Players with Most Kills,Leaderboard, bs4 requests numpy h5py datetime os logging
+https://finance.yahoo.com/quote/UBI.PA/,Stock Information of Ubisoft,Stock,yfinance h5py numpy datetime os logging 
+https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA,Google searches in past day, integer, time os logging glob pandas datetime selenium h5py
+https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA,Youtube searches in past day,integer, time os logging glob pandas datetime selenium h5py
+https://www.ign.com/games/xdefiant,IGN user and critic ratings, integer, time os logging datetime requests bs4 h5py pandas
+https://www.playerauctions.com/player-count/xdefiant/,current player count of XDefaint, integers, time os logging datetime requests bs4 h5py pandas

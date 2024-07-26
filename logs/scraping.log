@@ -1,0 +1,952 @@
+2024-07-16 09:50:29,955:ERROR:An error occurred for search type web: HTTPSConnectionPool(host='trends.google.com', port=443): Max retries exceeded with url: /trends/?geo=US (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000283FF7B8470>, 'Connection to 128.3.21.12 timed out. (connect timeout=2)')))
+2024-07-16 09:50:31,960:ERROR:An error occurred for search type youtube: HTTPSConnectionPool(host='trends.google.com', port=443): Max retries exceeded with url: /trends/?geo=US (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000283FF7B8B60>, 'Connection to 128.3.21.12 timed out. (connect timeout=2)')))
+2024-07-16 09:56:13,522:ERROR:An error occurred for search type web: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-07-16 09:56:13,868:ERROR:An error occurred for search type youtube: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-07-16 09:57:07,868:ERROR:An error occurred for search type web: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-07-16 09:57:08,219:ERROR:An error occurred for search type youtube: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-07-16 13:05:35,345:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: Unable to locate element: button.widget-actions-item.export; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 13:06:35,463:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: Move target (1084, -109) is out of bounds of viewport dimensions (1280, 955)
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+MoveTargetOutOfBoundsError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:479:5
+assertInViewPort@chrome://remote/content/shared/webdriver/Actions.sys.mjs:2363:11
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1144:21
+dispatch/pendingEvents<@chrome://remote/content/shared/webdriver/Actions.sys.mjs:2019:14
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:2018:39
+dispatch/chainEvents<@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1929:27
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1931:7
+performActions@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:493:23
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:144:31
+
+2024-07-16 13:09:45,773:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 13:10:11,545:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 13:11:13,928:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 13:11:41,114:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 13:12:51,224:INFO:Loaded general Google Trends page
+2024-07-16 13:13:00,643:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 13:13:13,369:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 13:13:31,030:INFO:Downloaded trends data from: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 13:14:05,257:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 13:14:16,138:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 13:14:27,608:INFO:Downloaded trends data from: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 13:45:51,893:INFO:Loaded general Google Trends page
+2024-07-16 13:46:00,682:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 13:46:15,308:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 13:46:29,132:INFO:Downloaded trends data from: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 13:47:04,536:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 13:47:15,376:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 13:47:28,965:INFO:Downloaded trends data from: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:00:18,533:INFO:Loaded general Google Trends page
+2024-07-16 14:00:29,389:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:00:40,716:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:00:54,380:INFO:Downloaded trends data from: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:01:49,120:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:02:00,378:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:02:13,301:INFO:Downloaded trends data from: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:03:47,240:INFO:Stock data saved to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\data.h5 in group finance/20240716_140347
+2024-07-16 14:26:24,782:INFO:Loaded general Google Trends page
+2024-07-16 14:26:33,161:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:27:02,261:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 14:27:46,336:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:27:58,524:INFO:Clicked export button for Interest over time for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:28:25,629:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: Element <button class="widget-actions-item export"> is not clickable at point (1084,1) because another element <div class="header-topbar header-topbar-grow toolbar-shadow"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:337:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:177:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:136:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:205:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:85:31
+
+2024-07-16 14:29:26,762:INFO:Loaded general Google Trends page
+2024-07-16 14:29:37,987:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:29:50,029:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElement@chrome://remote/content/marionette/driver.sys.mjs:1496:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-07-16 14:30:09,064:INFO:Loaded general Google Trends page
+2024-07-16 14:30:17,730:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:30:29,346:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:30:40,623:INFO:Downloaded trends data from: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:31:20,992:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:31:36,148:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:31:49,012:INFO:Downloaded trends data from: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:33:36,389:INFO:Loaded general Google Trends page
+2024-07-16 14:33:47,151:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:34:02,162:INFO:Clicked export button for 'Interest over time' for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:34:15,111:INFO:Downloaded 'Interest over time' data from: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:35:13,983:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:35:35,136:INFO:Clicked export button for 'Interest by region' for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:35:46,982:INFO:Downloaded 'Interest by region' data from: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:36:46,522:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:37:00,792:INFO:Clicked export button for 'Interest over time' for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:37:17,595:INFO:Downloaded 'Interest over time' data from: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:37:56,490:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:38:18,592:INFO:Clicked export button for 'Interest by region' for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:38:31,288:INFO:Downloaded 'Interest by region' data from: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:39:48,520:INFO:Loaded general Google Trends page
+2024-07-16 14:39:57,265:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:40:07,643:INFO:Clicked export button for 'Interest over time' for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:40:17,741:INFO:Downloaded 'Interest over time' data from: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:40:55,788:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:41:32,720:ERROR:Failed to download 'Interest by region' data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 14:42:22,169:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:42:33,256:INFO:Clicked export button for 'Interest over time' for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:42:46,073:INFO:Downloaded 'Interest over time' data from: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:43:23,800:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:43:55,226:ERROR:Failed to download 'Interest by region' data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 14:45:33,159:INFO:Loaded general Google Trends page
+2024-07-16 14:45:41,153:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:46:07,489:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 14:47:06,833:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:47:20,705:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:47:31,187:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-16 14:48:42,443:INFO:Loaded general Google Trends page
+2024-07-16 14:48:54,562:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:49:05,385:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:49:19,716:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-16 14:49:56,651:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:50:11,487:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:50:26,952:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-16 14:52:06,750:INFO:Loaded general Google Trends page
+2024-07-16 14:52:17,599:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:52:45,295:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 14:53:21,116:INFO:Loaded general Google Trends page
+2024-07-16 14:53:32,973:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:54:02,750:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElement@chrome://remote/content/marionette/driver.sys.mjs:1496:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-07-16 14:54:24,073:INFO:Loaded general Google Trends page
+2024-07-16 14:54:33,752:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:54:59,952:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 14:55:38,248:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:55:49,246:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:56:05,563:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-16 14:56:50,834:INFO:Loaded general Google Trends page
+2024-07-16 14:57:03,164:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:57:23,316:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 14:58:20,074:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:58:40,424:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 14:59:20,565:INFO:Loaded general Google Trends page
+2024-07-16 14:59:30,833:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 14:59:50,978:ERROR:Attempt 1 failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 15:00:34,393:ERROR:Attempt 2 failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: Failed to decode response from marionette
+
+2024-07-16 15:01:06,712:INFO:Loaded general Google Trends page
+2024-07-16 15:01:14,321:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:01:27,379:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:679:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:515:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElement@chrome://remote/content/marionette/driver.sys.mjs:1496:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+2024-07-16 15:04:07,815:INFO:Loaded general Google Trends page
+2024-07-16 15:04:17,759:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:04:44,152:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 15:05:22,373:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:05:34,118:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:05:48,250:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-16 15:17:33,820:INFO:Loaded general Google Trends page
+2024-07-16 15:17:41,889:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:18:09,325:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 15:18:55,036:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:19:09,907:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:19:20,208:INFO:Downloaded trends data from: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:27:33,266:INFO:Loaded general Google Trends page
+2024-07-16 15:27:45,309:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:28:07,846:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:28:27,475:INFO:Downloaded trends data from: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:29:18,072:INFO:Loaded general Google Trends page
+2024-07-16 15:29:28,314:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:29:56,947:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 15:30:43,483:INFO:Loaded general Google Trends page
+2024-07-16 15:30:56,084:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:31:22,831:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 15:32:17,765:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:32:31,530:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:32:47,195:INFO:Downloaded trends data from: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:34:26,062:INFO:Loaded general Google Trends page
+2024-07-16 15:34:43,063:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:35:08,372:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 15:35:59,523:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: Failed to decode response from marionette
+
+2024-07-16 15:36:41,903:INFO:Loaded general Google Trends page
+2024-07-16 15:37:02,661:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:37:31,571:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 15:38:06,613:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:38:19,302:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:38:33,784:INFO:Downloaded trends data from: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:48:27,338:INFO:Loaded general Google Trends page
+2024-07-16 15:48:47,221:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:49:16,588:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 15:49:47,842:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:49:54,457:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: Element <button class="widget-actions-item export"> is not clickable at point (1084,383) because another element <md-backdrop class="_md-select-backdrop _md-click-catcher"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:337:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:177:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:136:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:205:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:85:31
+
+2024-07-16 15:55:10,102:INFO:Loaded general Google Trends page
+2024-07-16 15:55:23,607:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:55:51,264:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 15:56:04,385:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:56:19,536:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:56:31,719:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-16 15:56:31,719:INFO:Downloaded trends data from: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:57:17,465:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:57:28,851:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 15:57:43,215:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-16 15:57:43,215:INFO:Downloaded trends data from: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:03:44,891:INFO:Loaded general Google Trends page
+2024-07-16 16:04:05,979:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:04:32,507:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 16:04:51,094:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:05:02,306:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:05:16,317:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [WinError 183] Cannot create a file when that file already exists: 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\multiTimeline.csv' -> 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\web_search.csv'
+2024-07-16 16:05:27,504:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:05:38,696:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:05:58,393:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [WinError 183] Cannot create a file when that file already exists: 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\multiTimeline(1).csv' -> 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\web_search.csv'
+2024-07-16 16:06:14,565:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:06:28,743:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:07:03,283:INFO:Loaded general Google Trends page
+2024-07-16 16:07:21,204:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:07:47,275:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 16:08:04,606:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:08:16,081:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:08:31,095:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-16 16:08:31,116:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Missing optional dependency 'pytables'.  Use pip or conda to install pytables.
+2024-07-16 16:08:44,971:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:08:56,145:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:09:11,390:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [WinError 183] Cannot create a file when that file already exists: 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\multiTimeline.csv' -> 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\web_search.csv'
+2024-07-16 16:09:26,952:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:09:37,849:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:09:50,602:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [WinError 183] Cannot create a file when that file already exists: 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\multiTimeline(1).csv' -> 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\web_search.csv'
+2024-07-16 16:10:05,501:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:10:20,058:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:10:35,046:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [WinError 183] Cannot create a file when that file already exists: 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\multiTimeline(2).csv' -> 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\web_search.csv'
+2024-07-16 16:11:23,852:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:11:36,012:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:11:53,563:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-16 16:11:53,574:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Missing optional dependency 'pytables'.  Use pip or conda to install pytables.
+2024-07-16 16:12:06,664:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:12:18,581:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:12:36,753:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [WinError 183] Cannot create a file when that file already exists: 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\multiTimeline(3).csv' -> 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\youtube_search.csv'
+2024-07-16 16:12:48,654:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:13:01,682:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:13:13,063:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [WinError 183] Cannot create a file when that file already exists: 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\multiTimeline(4).csv' -> 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\youtube_search.csv'
+2024-07-16 16:13:25,975:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:13:38,004:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:13:50,973:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [WinError 183] Cannot create a file when that file already exists: 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\multiTimeline(5).csv' -> 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\youtube_search.csv'
+2024-07-16 16:14:05,086:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:14:17,411:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:14:34,174:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [WinError 183] Cannot create a file when that file already exists: 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\multiTimeline(6).csv' -> 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\youtube_search.csv'
+2024-07-16 16:21:37,540:INFO:Loaded general Google Trends page
+2024-07-16 16:21:51,112:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:22:18,085:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 16:22:30,536:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:22:41,354:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:22:52,811:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-16 16:22:52,826:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [Errno 0] Unable to synchronously open file (unable to lock file, errno = 0, error message = 'No error', Win32 GetLastError() = 33)
+2024-07-16 16:23:04,781:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:23:19,105:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:23:32,657:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [WinError 183] Cannot create a file when that file already exists: 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\multiTimeline.csv' -> 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\web_search.csv'
+2024-07-16 16:23:44,891:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:23:56,271:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:24:07,306:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [WinError 183] Cannot create a file when that file already exists: 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\multiTimeline(1).csv' -> 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\web_search.csv'
+2024-07-16 16:24:29,099:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:24:40,659:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:24:59,054:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [WinError 183] Cannot create a file when that file already exists: 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\multiTimeline(2).csv' -> 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\web_search.csv'
+2024-07-16 16:25:54,529:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:26:06,684:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:26:18,570:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-16 16:26:18,582:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [Errno 0] Unable to synchronously open file (unable to lock file, errno = 0, error message = 'No error', Win32 GetLastError() = 33)
+2024-07-16 16:26:31,568:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:26:43,131:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:27:00,449:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [WinError 183] Cannot create a file when that file already exists: 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\multiTimeline(3).csv' -> 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\youtube_search.csv'
+2024-07-16 16:27:19,594:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:27:31,877:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:27:47,827:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [WinError 183] Cannot create a file when that file already exists: 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\multiTimeline(4).csv' -> 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\youtube_search.csv'
+2024-07-16 16:28:05,540:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:28:19,586:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:28:32,535:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [WinError 183] Cannot create a file when that file already exists: 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\multiTimeline(5).csv' -> 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\youtube_search.csv'
+2024-07-16 16:28:51,875:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:29:05,835:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:29:21,635:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [WinError 183] Cannot create a file when that file already exists: 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\multiTimeline(6).csv' -> 'c:\\Users\\mrosk\\OneDrive\\Desktop\\webscrape_api_project\\data\\youtube_search.csv'
+2024-07-16 16:31:46,686:INFO:Loaded general Google Trends page
+2024-07-16 16:32:06,241:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:32:32,521:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 16:32:48,941:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:33:01,059:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:33:13,709:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-16 16:33:13,726:INFO:Saved data to HDF5 group: web_search/20240716163313
+2024-07-16 16:33:14,700:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:33:28,449:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:33:47,695:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-16 16:33:47,720:INFO:Saved data to HDF5 group: youtube_search/20240716163347
+2024-07-16 16:49:25,875:INFO:Loaded general Google Trends page
+2024-07-16 16:49:41,039:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:50:06,189:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 16:50:40,673:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:50:55,324:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:51:12,236:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Missing optional dependency 'pytables'.  Use pip or conda to install pytables.
+2024-07-16 16:52:33,293:INFO:Loaded general Google Trends page
+2024-07-16 16:52:53,180:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:53:22,396:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-16 16:53:37,134:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:53:50,444:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:54:08,577:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-16 16:54:08,599:INFO:Saved data to HDF5 group: web_search/20240716165408
+2024-07-16 16:54:09,627:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:54:21,645:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 16:54:37,602:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-16 16:54:37,627:INFO:Saved data to HDF5 group: youtube_search/20240716165437
+2024-07-16 17:01:28,541:INFO:Loaded general Google Trends page
+2024-07-16 17:01:41,647:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:01:53,801:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:02:09,974:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-16 17:02:09,992:INFO:Saved data to HDF5 group: web_search/20240716170209
+2024-07-16 17:02:10,916:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:02:21,835:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:02:34,496:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-16 17:02:34,521:INFO:Saved data to HDF5 group: youtube_search/20240716170234
+2024-07-16 17:10:43,010:INFO:Loaded general Google Trends page
+2024-07-16 17:10:59,983:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:11:10,769:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:11:30,105:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-16 17:11:30,125:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [Errno 0] Unable to synchronously open file (unable to lock file, errno = 0, error message = 'No error', Win32 GetLastError() = 33)
+2024-07-16 17:11:41,491:INFO:File web_search.csv already exists. Skipping download.
+2024-07-16 17:11:43,402:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:11:55,864:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:12:13,746:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-16 17:12:13,758:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [Errno 0] Unable to synchronously open file (unable to lock file, errno = 0, error message = 'No error', Win32 GetLastError() = 33)
+2024-07-16 17:12:27,065:INFO:File youtube_search.csv already exists. Skipping download.
+2024-07-16 17:13:15,288:INFO:Loaded general Google Trends page
+2024-07-16 17:13:28,488:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:13:39,132:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:13:53,055:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-16 17:13:53,072:INFO:Saved data to HDF5 group: web_search/20240716171353
+2024-07-16 17:13:54,014:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:14:04,923:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:14:17,340:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-16 17:14:17,359:INFO:Saved data to HDF5 group: youtube_search/20240716171417
+2024-07-16 17:33:50,100:INFO:Loaded general Google Trends page
+2024-07-16 17:34:05,861:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:34:19,957:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:34:38,472:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-16 17:34:38,485:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [Errno 0] Unable to synchronously open file (unable to lock file, errno = 0, error message = 'No error', Win32 GetLastError() = 33)
+2024-07-16 17:34:58,475:INFO:File web_search.csv already exists. Skipping download.
+2024-07-16 17:35:00,416:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:35:11,606:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:35:22,015:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-16 17:35:22,025:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: [Errno 0] Unable to synchronously open file (unable to lock file, errno = 0, error message = 'No error', Win32 GetLastError() = 33)
+2024-07-16 17:35:38,180:INFO:File youtube_search.csv already exists. Skipping download.
+2024-07-16 17:39:35,033:INFO:Loaded general Google Trends page
+2024-07-16 17:39:51,381:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:40:02,364:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:40:12,771:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-16 17:40:12,788:INFO:Saved data to HDF5 group: web_search/20240716174012
+2024-07-16 17:40:13,757:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:40:26,477:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 17:40:41,251:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-16 17:40:41,274:INFO:Saved data to HDF5 group: youtube_search/20240716174041
+2024-07-16 20:41:00,497:INFO:Loaded general Google Trends page
+2024-07-16 20:41:18,400:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 20:41:31,927:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 20:41:46,897:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-16 20:41:46,914:INFO:Saved data to HDF5 group: web_search/20240716204146
+2024-07-16 20:41:47,853:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 20:42:01,071:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-16 20:42:12,501:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-16 20:42:12,518:INFO:Saved data to HDF5 group: youtube_search/20240716204212
+2024-07-17 13:17:06,064:INFO:Loaded general Google Trends page
+2024-07-17 13:17:21,151:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:17:46,409:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-17 13:18:02,035:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:18:13,410:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:18:30,396:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-17 13:18:30,416:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: 'Time'
+2024-07-17 13:18:44,379:INFO:File web_search.csv already exists. Skipping download.
+2024-07-17 13:18:46,519:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:19:00,270:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:19:14,092:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-17 13:19:14,108:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: 'Time'
+2024-07-17 13:19:30,566:INFO:File youtube_search.csv already exists. Skipping download.
+2024-07-17 13:22:08,836:INFO:Loaded general Google Trends page
+2024-07-17 13:22:24,926:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:22:50,191:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-17 13:23:06,302:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:23:21,388:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:23:38,900:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-17 13:23:38,900:INFO:Preprocessing CSV file: c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-17 13:23:38,916:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: 'Time'
+2024-07-17 13:23:50,054:INFO:File web_search.csv already exists. Skipping download.
+2024-07-17 13:23:52,234:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:24:06,477:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:24:19,503:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-17 13:24:19,503:INFO:Preprocessing CSV file: c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-17 13:24:19,520:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: 'Time'
+2024-07-17 13:24:31,198:INFO:File youtube_search.csv already exists. Skipping download.
+2024-07-17 13:29:50,072:INFO:Loaded general Google Trends page
+2024-07-17 13:30:03,945:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:30:32,947:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-17 13:30:54,076:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:31:04,786:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:31:15,446:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-17 13:31:15,461:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: 'Time'
+2024-07-17 13:31:28,081:INFO:File web_search.csv already exists. Skipping download.
+2024-07-17 13:31:29,123:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:31:43,570:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:31:58,577:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-17 13:31:58,594:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: 'Time'
+2024-07-17 13:32:14,498:INFO:File youtube_search.csv already exists. Skipping download.
+2024-07-17 13:33:33,460:INFO:Loaded general Google Trends page
+2024-07-17 13:33:49,685:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:34:17,286:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-17 13:34:38,801:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:34:52,207:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:35:05,317:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-17 13:35:05,331:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: 'Time'
+2024-07-17 13:35:18,013:INFO:File web_search.csv already exists. Skipping download.
+2024-07-17 13:35:20,179:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:35:33,268:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:35:45,222:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-17 13:35:45,238:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA: 'Time'
+2024-07-17 13:36:01,192:INFO:File youtube_search.csv already exists. Skipping download.
+2024-07-17 13:37:58,629:INFO:Loaded general Google Trends page
+2024-07-17 13:38:18,755:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:38:45,054:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-17 13:39:03,935:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:39:17,344:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:39:36,291:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-17 13:39:36,317:INFO:Saved data to HDF5 group: web_search/20240717133936
+2024-07-17 13:39:37,354:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:39:48,988:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:40:00,289:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-17 13:40:00,304:INFO:Saved data to HDF5 group: youtube_search/20240717134000
+2024-07-17 13:49:39,477:INFO:Loaded general Google Trends page
+2024-07-17 13:49:53,566:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:50:19,916:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-17 13:50:35,958:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:50:48,195:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:50:59,072:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-17 13:50:59,088:INFO:Saved data to HDF5 group: web_search/20240717135059
+2024-07-17 13:51:00,039:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:51:15,136:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:51:29,879:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-17 13:51:29,903:INFO:Saved data to HDF5 group: youtube_search/20240717135129
+2024-07-17 13:52:33,648:INFO:Loaded general Google Trends page
+2024-07-17 13:52:49,350:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:53:17,833:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-17 13:53:31,778:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:53:45,936:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:53:56,937:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-17 13:53:56,954:INFO:Saved data to HDF5 group: web_search/20240717135356
+2024-07-17 13:53:57,897:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:54:09,079:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-17 13:54:22,113:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-17 13:54:22,130:INFO:Saved data to HDF5 group: youtube_search/20240717135422
+2024-07-18 11:12:00,193:INFO:Loaded general Google Trends page
+2024-07-18 11:12:17,694:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-18 11:12:30,436:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-18 11:12:43,589:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-18 11:12:43,622:INFO:Saved data to HDF5 group: web_search/20240718111243
+2024-07-18 11:12:44,597:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-18 11:12:57,762:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-18 11:13:10,199:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-18 11:13:10,225:INFO:Saved data to HDF5 group: youtube_search/20240718111310
+2024-07-18 11:48:49,705:ERROR:Failed to scrape IGN Ratings: ('Connection broken: IncompleteRead(411 bytes read, 3047 more expected)', IncompleteRead(411 bytes read, 3047 more expected))
+2024-07-18 11:50:31,076:ERROR:Failed to scrape IGN Ratings: 403 Client Error: Unavailable (IFW-U01) for url: https://www.ign.com/games/xdefiant
+2024-07-18 11:53:16,901:ERROR:Failed to scrape IGN Ratings: Session.request() got an unexpected keyword argument 'header'
+2024-07-18 11:53:32,023:INFO:IGN Rating: 7
+2024-07-18 11:53:32,023:INFO:User Rating: N/A
+2024-07-18 11:53:32,023:ERROR:Failed to scrape IGN Ratings: module 'h5py' has no attribute 'file'
+2024-07-18 12:11:33,670:INFO:IGN Rating: 7
+2024-07-18 12:11:33,676:INFO:User Rating: N/A
+2024-07-18 12:11:33,682:ERROR:Failed to scrape IGN Ratings: [Errno 0] Unable to synchronously open file (unable to lock file, errno = 0, error message = 'No error', Win32 GetLastError() = 33)
+2024-07-18 12:20:46,815:INFO:IGN Rating: 7
+2024-07-18 12:20:46,821:INFO:User Rating: N/A
+2024-07-18 12:20:46,826:INFO:Saved data to HDF5 group: ign_ratings/20240718122046
+2024-07-18 12:32:35,332:INFO:IGN Rating: 7
+2024-07-18 12:32:35,337:INFO:User Rating: N/A
+2024-07-18 12:32:35,355:INFO:Saved data to HDF5 group: ign_ratings/20240718123235
+2024-07-18 12:37:13,024:INFO:IGN Rating: 7
+2024-07-18 12:37:13,030:ERROR:Failed to scrape IGN Ratings: 'NoneType' object has no attribute 'find_parent'
+2024-07-18 12:41:52,901:INFO:IGN Rating: 7
+2024-07-18 12:41:52,906:INFO:User Rating: N/A
+2024-07-18 12:41:52,913:INFO:Saved data to HDF5 group: ign_ratings/20240718124152
+2024-07-18 13:03:56,698:INFO:IGN Rating: 7
+2024-07-18 13:03:56,699:INFO:User Rating: Site Themes
+2024-07-18 13:03:56,710:INFO:Saved data to HDF5 group: ign_ratings/20240718130356
+2024-07-18 13:05:34,549:INFO:IGN Rating: 7
+2024-07-18 13:05:34,550:INFO:User Rating: Site Themes
+2024-07-18 13:05:34,560:INFO:Saved data to HDF5 group: ign_ratings/20240718130534
+2024-07-18 13:06:30,106:INFO:IGN Rating: 7
+2024-07-18 13:06:30,107:INFO:User Rating: Site Themes
+2024-07-18 13:06:30,116:INFO:Saved data to HDF5 group: ign_ratings/20240718130630
+2024-07-18 13:09:49,158:INFO:IGN Rating: 7
+2024-07-18 13:09:49,163:ERROR:Failed to scrape IGN Ratings: 'NoneType' object has no attribute 'find'
+2024-07-18 13:12:28,531:INFO:IGN Rating: 7
+2024-07-18 13:12:28,536:ERROR:Couldn't find the score-block high small div.
+2024-07-18 13:12:28,547:INFO:Saved data to HDF5 group: ign_ratings/20240718131228
+2024-07-18 13:14:13,893:INFO:IGN Rating: 7
+2024-07-18 13:14:13,896:ERROR:Couldn't find the score-block high small div.
+2024-07-18 13:14:13,897:INFO:User Rating: N/A
+2024-07-18 13:14:13,906:INFO:Saved data to HDF5 group: ign_ratings/20240718131413
+2024-07-18 13:21:06,303:INFO:IGN Rating: 7
+2024-07-18 13:21:06,306:ERROR:Couldn't find the user rating h3 element.
+2024-07-18 13:21:06,306:INFO:User Rating: N/A
+2024-07-18 13:21:06,321:INFO:Saved data to HDF5 group: ign_ratings/20240718132106
+2024-07-18 13:21:16,881:INFO:IGN Rating: 7
+2024-07-18 13:21:16,882:INFO:User Rating: Site Themes
+2024-07-18 13:21:16,893:INFO:Saved data to HDF5 group: ign_ratings/20240718132116
+2024-07-18 13:26:54,134:INFO:IGN Rating: 7
+2024-07-18 13:26:54,139:INFO:User Rating: N/A
+2024-07-18 13:26:54,153:INFO:Saved data to HDF5 group: ign_ratings/20240718132654
+2024-07-18 13:27:03,899:INFO:IGN Rating: 7
+2024-07-18 13:27:03,904:INFO:User Rating: N/A
+2024-07-18 13:27:03,914:INFO:Saved data to HDF5 group: ign_ratings/20240718132703
+2024-07-18 13:33:49,613:INFO:IGN Rating: 7
+2024-07-18 13:33:49,614:INFO:User Rating: Site Themes
+2024-07-18 13:33:49,619:INFO:Saved data to HDF5 group: ign_ratings/20240718133349
+2024-07-18 13:38:02,709:INFO:IGN Rating: 7
+2024-07-18 13:38:02,713:INFO:User Rating: 7.1
+2024-07-18 13:38:02,726:INFO:Saved data to HDF5 group: ign_ratings/20240718133802
+2024-07-18 13:42:11,875:INFO:IGN Rating: 7
+2024-07-18 13:42:11,878:INFO:User Rating: 7.1
+2024-07-18 13:42:11,880:ERROR:Failed to scrape IGN Ratings: [Errno 0] Unable to synchronously open file (unable to lock file, errno = 0, error message = 'No error', Win32 GetLastError() = 33)
+2024-07-18 13:45:33,944:INFO:IGN Rating: 7
+2024-07-18 13:45:33,948:INFO:User Rating: 7.1
+2024-07-18 13:45:33,952:INFO:Saved data to HDF5 group: ign_ratings/20240718134533
+2024-07-18 14:00:02,435:INFO:IGN Rating: 7
+2024-07-18 14:00:02,438:INFO:User Rating: 7.1
+2024-07-18 14:00:02,441:INFO:Saved data to HDF5 group: ign_ratings/20240718140002
+2024-07-19 10:52:30,564:ERROR:Failed to scrape player count data: name 'request' is not defined
+2024-07-19 10:52:56,282:INFO:Current Playes: 1,066,250
+2024-07-19 10:52:56,282:INFO:Comparison to Previous Day: 1,066,250
+2024-07-19 10:52:56,282:ERROR:Failed to scrape player count data: name 'gdf5_path' is not defined
+2024-07-19 10:53:36,353:INFO:Current Playes: 1,066,250
+2024-07-19 10:53:36,353:INFO:Comparison to Previous Day: 1,066,250
+2024-07-19 10:53:36,369:ERROR:Failed to scrape player count data: string_dtype() got an unexpected keyword argument 'encodning'
+2024-07-19 11:16:15,598:INFO:Current Playes: 1,066,250
+2024-07-19 11:16:15,600:ERROR:Failed to scrape player count data: name 'comparison_previous_day' is not defined
+2024-07-19 11:17:13,047:INFO:Current Playes: 1,066,250
+2024-07-19 11:17:13,047:INFO:Comparison to Previous Day: day
+2024-07-19 11:17:13,047:ERROR:Failed to scrape player count data: name 'comparison_previous_day' is not defined
+2024-07-19 11:18:04,856:INFO:Current Players: N/A
+2024-07-19 11:18:04,856:INFO:Comparison to Previous Day: day
+2024-07-19 11:18:04,874:INFO:Saved data to HDF5 group: player_counts/20240719111804
+2024-07-19 11:28:57,474:INFO:Current Playes: 1,066,250
+2024-07-19 11:28:57,474:ERROR:Failed to scrape player count data: Invalid character '/' position 0
+  line 1:
+/html/body/div[1]/div/main/div/div/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]/div[1]/span
+^
+2024-07-19 11:29:13,266:INFO:Current Playes: 1,066,250
+2024-07-19 11:29:13,266:ERROR:Failed to scrape player count data: Invalid character '/' position 4
+  line 1:
+html/body/div[1]/div/main/div/div/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]/div[1]/span
+    ^
+2024-07-19 11:38:58,979:INFO:Current Playes: 1,066,250
+2024-07-19 11:38:58,979:INFO:Comparison to Previous Day: N/A
+2024-07-19 11:38:58,980:ERROR:Failed to scrape player count data: name 'comparison_previous_day' is not defined
+2024-07-19 11:39:50,118:INFO:Current Playes: 1,066,250
+2024-07-19 11:39:50,119:INFO:Comparison to Previous Day: N/A
+2024-07-19 11:39:50,119:ERROR:Failed to scrape player count data: name 'comparison_previous_day' is not defined
+2024-07-19 11:48:36,774:INFO:Current Playes: 1,066,250
+2024-07-19 11:48:36,774:INFO:Comparison to Previous Day: 1.31%
+2024-07-19 11:48:36,774:ERROR:Failed to scrape player count data: name 'comparison_previous_day' is not defined
+2024-07-19 11:58:39,601:INFO:Current Playes: 1,066,250
+2024-07-19 11:58:39,601:INFO:Comparison to Previous Day: 1.31%
+2024-07-19 11:58:39,601:ERROR:Failed to scrape player count data: name 'current_players' is not defined
+2024-07-19 11:59:07,349:INFO:Current Players: N/A
+2024-07-19 11:59:07,349:INFO:Comparison to Previous Day: 1.31%
+2024-07-19 11:59:07,349:INFO:Saved data to HDF5 group: player_counts/20240719115907
+2024-07-19 12:08:26,815:INFO:Current Players: N/A
+2024-07-19 12:08:26,820:INFO:Comparison to Previous Day: 1.31%
+2024-07-19 12:08:26,820:INFO:Saved data to HDF5 group: player_counts/20240719120826
+2024-07-19 12:08:48,151:INFO:Current Playes: 1,066,250
+2024-07-19 12:08:48,152:INFO:Comparison to Previous Day: 1.31%
+2024-07-19 12:08:48,153:ERROR:Failed to scrape player count data: name 'current_players' is not defined
+2024-07-19 12:09:30,573:INFO:Current Playes: 1,066,250
+2024-07-19 12:09:30,575:INFO:Comparison to Previous Day: 1.31%
+2024-07-19 12:09:30,575:ERROR:Failed to scrape player count data: name 'player_count_data' is not defined
+2024-07-19 12:09:57,319:INFO:Current Playes: 1,066,250
+2024-07-19 12:09:57,319:INFO:Comparison to Previous Day: 1.31%
+2024-07-19 12:09:57,334:ERROR:Failed to scrape player count data: string_dtype() got an unexpected keyword argument 'encodeing'
+2024-07-19 12:10:13,270:INFO:Current Playes: 1,066,250
+2024-07-19 12:10:13,270:INFO:Comparison to Previous Day: 1.31%
+2024-07-19 12:10:13,286:INFO:Saved data to HDF5 group: player_counts/20240719121013
+2024-07-22 08:47:53,775:INFO:IGN Rating: 7
+2024-07-22 08:47:53,778:INFO:User Rating: 7.1
+2024-07-22 08:47:53,795:INFO:Saved data to HDF5 group: ign_ratings/20240722084753
+2024-07-22 08:50:54,767:INFO:Current Playes: 1,073,125
+2024-07-22 08:50:54,769:INFO:Comparison to Previous Day: -1.77%
+2024-07-22 08:50:54,778:INFO:Saved data to HDF5 group: player_counts/20240722085054
+2024-07-22 11:59:59,845:INFO:Loaded general Google Trends page
+2024-07-22 12:00:20,288:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-22 12:00:49,535:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-22 12:01:09,916:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-22 12:01:23,738:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-22 12:01:41,272:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-22 12:01:41,300:INFO:Saved data to HDF5 group: web_search/20240722120141
+2024-07-22 12:01:42,248:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-22 12:01:54,289:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-22 12:02:07,344:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-22 12:02:07,368:INFO:Saved data to HDF5 group: youtube_search/20240722120207
+2024-07-24 16:55:37,220:INFO:Stock data saved to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\data.h5 in group finance/20240724_165537
+2024-07-24 16:55:49,585:INFO:Loaded general Google Trends page
+2024-07-24 16:56:07,238:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-24 16:56:21,932:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-24 16:56:33,209:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-24 16:56:33,234:INFO:Saved data to HDF5 group: web_search/20240724165633
+2024-07-24 16:56:34,213:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-24 16:56:45,046:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-24 16:57:00,906:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-24 16:57:00,930:INFO:Saved data to HDF5 group: youtube_search/20240724165700
+2024-07-24 16:57:10,858:INFO:IGN Rating: 7
+2024-07-24 16:57:10,858:INFO:User Rating: 7.1
+2024-07-24 16:57:10,874:INFO:Saved data to HDF5 group: ign_ratings/20240724165710
+2024-07-24 16:57:14,784:INFO:Current Playes: 1,074,375
+2024-07-24 16:57:14,784:INFO:Comparison to Previous Day: 0.06%
+2024-07-24 16:57:14,799:INFO:Saved data to HDF5 group: player_counts/20240724165714
+2024-07-24 17:00:53,046:INFO:Stock data saved to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\data.h5 in group finance/20240724_170053
+2024-07-24 17:01:05,482:INFO:Loaded general Google Trends page
+2024-07-24 17:01:21,905:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-24 17:01:34,084:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-24 17:01:50,767:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-24 17:01:50,795:INFO:Saved data to HDF5 group: web_search/20240724170150
+2024-07-24 17:01:51,732:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-24 17:02:02,616:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-24 17:02:15,850:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-24 17:02:15,867:INFO:Saved data to HDF5 group: youtube_search/20240724170215
+2024-07-24 17:02:25,837:INFO:IGN Rating: 7
+2024-07-24 17:02:25,837:INFO:User Rating: 7.1
+2024-07-24 17:02:25,853:INFO:Saved data to HDF5 group: ign_ratings/20240724170225
+2024-07-24 17:02:30,368:INFO:Current Playes: 1,074,375
+2024-07-24 17:02:30,370:INFO:Comparison to Previous Day: 0.06%
+2024-07-24 17:02:30,372:INFO:Saved data to HDF5 group: player_counts/20240724170230
+2024-07-24 17:03:32,545:INFO:Data and images saved to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\leaderboard_data.h5 in group leaderboards/20240724_170330
+2024-07-25 13:16:43,159:INFO:Stock data saved to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\data.h5 in group finance/20240725_131643
+2024-07-25 13:16:55,946:INFO:Loaded general Google Trends page
+2024-07-25 13:17:15,663:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-25 13:17:44,185:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-25 13:17:55,498:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-25 13:18:09,263:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-25 13:18:25,046:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-25 13:18:25,077:INFO:Saved data to HDF5 group: web_search/20240725131825
+2024-07-25 13:18:26,162:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-25 13:18:37,703:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-25 13:18:56,147:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-25 13:18:56,164:INFO:Saved data to HDF5 group: youtube_search/20240725131856
+2024-07-25 13:19:05,957:INFO:IGN Rating: 7
+2024-07-25 13:19:05,961:INFO:User Rating: 7.1
+2024-07-25 13:19:05,969:INFO:Saved data to HDF5 group: ign_ratings/20240725131905
+2024-07-25 13:19:08,142:INFO:Current Playes: 1,078,125
+2024-07-25 13:19:08,145:INFO:Comparison to Previous Day: 0.35%
+2024-07-25 13:19:08,153:INFO:Saved data to HDF5 group: player_counts/20240725131908
+2024-07-25 13:20:09,052:INFO:Data and images saved to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\leaderboard_data.h5 in group leaderboards/20240725_132007
+2024-07-26 11:35:10,017:INFO:Stock data saved to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\data.h5 in group finance/20240726_113510
+2024-07-26 11:35:22,948:INFO:Loaded general Google Trends page
+2024-07-26 11:35:37,213:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-26 11:36:06,652:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-26 11:36:23,190:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-26 11:36:48,736:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2024-07-26 11:37:04,387:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-26 11:37:16,989:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-26 11:37:36,323:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-26 11:37:36,346:INFO:Saved data to HDF5 group: web_search/20240726113736
+2024-07-26 11:37:37,321:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-26 11:37:49,822:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-26 11:38:02,795:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-26 11:38:02,819:INFO:Saved data to HDF5 group: youtube_search/20240726113802
+2024-07-26 11:38:12,823:INFO:IGN Rating: 7
+2024-07-26 11:38:12,827:INFO:User Rating: 7.1
+2024-07-26 11:38:12,837:INFO:Saved data to HDF5 group: ign_ratings/20240726113812
+2024-07-26 11:38:15,278:INFO:Current Playes: 1,080,000
+2024-07-26 11:38:15,280:INFO:Comparison to Previous Day: 0.17%
+2024-07-26 11:38:15,289:INFO:Saved data to HDF5 group: player_counts/20240726113815
+2024-07-26 11:39:19,045:ERROR:An error occurred: 403 Client Error: Forbidden for url: https://tracker.gg/xdefiant/leaderboards/stats/all/Kills?page=1
+2024-07-26 11:40:14,886:INFO:Stock data saved to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\data.h5 in group finance/20240726_114014
+2024-07-26 11:40:26,938:INFO:Loaded general Google Trends page
+2024-07-26 11:40:41,952:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-26 11:40:50,947:ERROR:Failed to download trends data from https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA: Message: Element <button class="widget-actions-item export"> is not clickable at point (1084,943) because another element <div class="cookieBarInner"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:337:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:177:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:136:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:205:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:85:31
+
+2024-07-26 11:41:04,514:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-26 11:41:17,887:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-26 11:41:37,154:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\web_search.csv
+2024-07-26 11:41:37,177:INFO:Saved data to HDF5 group: web_search/20240726114137
+2024-07-26 11:41:38,151:INFO:Loaded URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-26 11:41:49,751:INFO:Clicked export button for URL: https://trends.google.com/trends/explore?date=now%201-d&gprop=youtube&q=%2Fg%2F11rscfj9f0&hl=en-ZA
+2024-07-26 11:42:09,399:INFO:Renamed downloaded file to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\youtube_search.csv
+2024-07-26 11:42:09,418:INFO:Saved data to HDF5 group: youtube_search/20240726114209
+2024-07-26 11:42:19,331:INFO:IGN Rating: 7
+2024-07-26 11:42:19,336:INFO:User Rating: 7.1
+2024-07-26 11:42:19,348:INFO:Saved data to HDF5 group: ign_ratings/20240726114219
+2024-07-26 11:42:30,825:INFO:Current Playes: 1,080,000
+2024-07-26 11:42:30,827:INFO:Comparison to Previous Day: 0.17%
+2024-07-26 11:42:30,836:INFO:Saved data to HDF5 group: player_counts/20240726114230
+2024-07-26 11:43:33,783:INFO:Data and images saved to c:\Users\mrosk\OneDrive\Desktop\webscrape_api_project\data\leaderboard_data.h5 in group leaderboards/20240726_114331
