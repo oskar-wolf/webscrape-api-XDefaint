@@ -10,6 +10,7 @@ This project demonstrates web scraping skills to collect numeric information fro
   pip install -r requirements.txt
 
 ## Directory Structure
+  ```bash
 webscrape_api_project/
 │
 ├── data/
